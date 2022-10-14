@@ -1,0 +1,54 @@
+##
+# Client application
+@client_id = {{$dotenv client_id}}
+@client_secret = {{$dotenv client_secret}}
+
+@host = https://api.myuplink.com 
+
+### Initiate login process
+# @name tokenResponse
+POST {{host}}/oauth/token HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+
+client_id={{client_id}}
+&client_secret={{client_secret}}
+&scope=READSYSTEM
+&grant_type=client_credentials
+
+### Protected Ping test
+GET {{host}}/v2/protected-ping HTTP/1.1
+Authorization: Bearer {{tokenResponse.response.body.access_token}}
+
+### Get systems
+# @name systemsResponse
+GET {{host}}/v2/systems/me HTTP/1.1
+Content-Type: application/json; charset=utf-8
+Authorization: Bearer {{tokenResponse.response.body.access_token}}
+
+# Example response:
+# -----------------
+# {
+#   "page": 1,
+#   "itemsPerPage": 10,
+#   "numItems": 1,
+#   "systems": [
+#     {
+#       "systemId": "94bd1ed4-9e67-42cc-b75f-99012ef7eef8",
+#       "name": "NIBE S1255-12 R EM 3X400V",
+#       "securityLevel": "admin",
+#       "hasAlarm": false,
+#       "country": "Country",
+#       "devices": [
+#         {
+#           "id": "e7972b53-d1a2-4624-9135-88357f34e0f8",
+#           "connectionState": "Connected",
+#           "currentFwVersion": "2.14.8",
+#           "product": {
+#             "serialNumber": "1234567890",
+#             "name": "NIBE S1255-12 R EM 3X400V"
+#           }
+#         }
+#       ]
+#     }
+#   ]
+# }
