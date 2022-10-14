@@ -1,0 +1,39 @@
+{
+  "name": "Nibe myUplink",
+  "version": "0.0.1",
+  "slug": "nibe_myuplink",
+  "description": "Nibe myUplink add-on for Home Assistant",
+  "url": "https://github.com/JanneMattila/hassio-addon-nibe-myuplink",
+  "arch": [
+    "armhf",
+    "armv7",
+    "aarch64",
+    "amd64",
+    "i386"
+  ],
+  "startup": "application",
+  "boot": "auto",
+  "options": {
+    "seconds": 3600,
+    "azure_ad": {
+      "tenant_id": "<your_tenant_id>",
+      "client_id": "<your_app_id>",
+      "client_secret": "<your_app_secret>"
+    },
+    "dns_zone_id": "/subscriptions/<your_sub_id>/resourceGroups/<your_rg>/providers/Microsoft.Network/dnszones/<your_dns_zone>",
+    "record_type": "A",
+    "record_name": "demo1"
+  },
+  "schema": {
+    "seconds": "int",
+    "azure_ad": {
+      "tenant_id": "str",
+      "client_id": "str",
+      "client_secret": "password"
+    },
+    "dns_zone_id": "str",
+    "record_type": "str",
+    "record_name": "str"
+  },
+  "image": "jannemattila/nibe-myuplink-{arch}"
+}
