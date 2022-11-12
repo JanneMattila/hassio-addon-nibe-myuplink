@@ -1,0 +1,180 @@
+[
+  {
+    "category": "NIBE S1255-12 R EM 3X400V",
+    "parameterId": "4",
+    "parameterName": "Current outdoor temper­ature (BT1)",
+    "parameterUnit": "°C",
+    "writable": false,
+    "timestamp": "2022-11-12T18:32:56+00:00",
+    "value": 8.2,
+    "strVal": "8.2°C",
+    "smartHomeCategories": [
+      "sh-outdoorTemp"
+    ],
+    "minValue": null,
+    "maxValue": null,
+    "enumValues": [],
+    "scaleValue": "0.1",
+    "zoneId": null
+  },
+  {
+    "category": "NIBE S1255-12 R EM 3X400V",
+    "parameterId": "8",
+    "parameterName": "Supply line (BT2)",
+    "parameterUnit": "°C",
+    "writable": false,
+    "timestamp": "2022-11-12T18:57:45+00:00",
+    "value": 42.4,
+    "strVal": "42.4°C",
+    "smartHomeCategories": [
+      "sh-supplyTemp"
+    ],
+    "minValue": null,
+    "maxValue": null,
+    "enumValues": [],
+    "scaleValue": "0.1",
+    "zoneId": null
+  },
+  {
+    "category": "NIBE S1255-12 R EM 3X400V",
+    "parameterId": "10",
+    "parameterName": "Return line (BT3)",
+    "parameterUnit": "°C",
+    "writable": false,
+    "timestamp": "2022-11-12T18:54:50+00:00",
+    "value": 22.4,
+    "strVal": "22.4°C",
+    "smartHomeCategories": [
+      "sh-returnTemp"
+    ],
+    "minValue": null,
+    "maxValue": null,
+    "enumValues": [],
+    "scaleValue": "0.1",
+    "zoneId": null
+  },
+  {
+    "category": "NIBE S1255-12 R EM 3X400V",
+    "parameterId": "11",
+    "parameterName": "Hot water top (BT7)",
+    "parameterUnit": "°C",
+    "writable": false,
+    "timestamp": "2022-11-12T18:19:57+00:00",
+    "value": 53.7,
+    "strVal": "53.7°C",
+    "smartHomeCategories": [
+      "sh-hwTemp"
+    ],
+    "minValue": null,
+    "maxValue": null,
+    "enumValues": [],
+    "scaleValue": "0.1",
+    "zoneId": null
+  },
+  {
+    "category": "NIBE S1255-12 R EM 3X400V",
+    "parameterId": "12",
+    "parameterName": "Hot water char­ging (BT6)",
+    "parameterUnit": "°C",
+    "writable": false,
+    "timestamp": "2022-11-12T18:22:16+00:00",
+    "value": 51.3,
+    "strVal": "51.3°C",
+    "smartHomeCategories": [
+      "sh-hwTemp"
+    ],
+    "minValue": null,
+    "maxValue": null,
+    "enumValues": [],
+    "scaleValue": "0.1",
+    "zoneId": null
+  },
+  {
+    "category": "NIBE S1255-12 R EM 3X400V",
+    "parameterId": "13",
+    "parameterName": "Brine in (BT10)",
+    "parameterUnit": "°C",
+    "writable": false,
+    "timestamp": "2022-11-12T18:56:46+00:00",
+    "value": 5.6,
+    "strVal": "5.6°C",
+    "smartHomeCategories": [
+      "sh-returnTemp"
+    ],
+    "minValue": null,
+    "maxValue": null,
+    "enumValues": [],
+    "scaleValue": "0.1",
+    "zoneId": null
+  },
+  {
+    "category": "NIBE S1255-12 R EM 3X400V",
+    "parameterId": "14",
+    "parameterName": "Brine out (BT11)",
+    "parameterUnit": "°C",
+    "writable": false,
+    "timestamp": "2022-11-12T18:56:38+00:00",
+    "value": 3.2,
+    "strVal": "3.2°C",
+    "smartHomeCategories": [
+      "sh-supplyTemp"
+    ],
+    "minValue": null,
+    "maxValue": null,
+    "enumValues": [],
+    "scaleValue": "0.1",
+    "zoneId": null
+  },
+  {
+    "category": "NIBE S1255-12 R EM 3X400V",
+    "parameterId": "54",
+    "parameterName": "Average temper­ature (BT1)",
+    "parameterUnit": "°C",
+    "writable": false,
+    "timestamp": "2022-11-12T08:32:31+00:00",
+    "value": 10.7,
+    "strVal": "10.7°C",
+    "smartHomeCategories": [
+      "sh-outdoorTemp"
+    ],
+    "minValue": null,
+    "maxValue": null,
+    "enumValues": [],
+    "scaleValue": "0.1",
+    "zoneId": null
+  },
+  {
+    "category": "NIBE S1255-12 R EM 3X400V",
+    "parameterId": "781",
+    "parameterName": "Degree minutes",
+    "parameterUnit": "DM",
+    "writable": true,
+    "timestamp": "2022-11-12T18:57:37+00:00",
+    "value": -47.0,
+    "strVal": "-47DM",
+    "smartHomeCategories": [],
+    "minValue": -30000,
+    "maxValue": 30000,
+    "enumValues": [],
+    "scaleValue": "0.1",
+    "zoneId": null
+  },
+  {
+    "category": "NIBE S1255-12 R EM 3X400V",
+    "parameterId": "1708",
+    "parameterName": "Calculated supply climate system 1",
+    "parameterUnit": "°C",
+    "writable": false,
+    "timestamp": "2022-11-12T18:19:50+00:00",
+    "value": 29.3,
+    "strVal": "29.3°C",
+    "smartHomeCategories": [
+      "sh-supplyTemp"
+    ],
+    "minValue": null,
+    "maxValue": null,
+    "enumValues": [],
+    "scaleValue": "0.1",
+    "zoneId": null
+  }
+]

@@ -10,6 +10,8 @@ Follow these steps to get the add-on installed on your system:
 
 ## How to use
 
+1. Register application to [https://dev.myuplink.com](https://dev.myuplink.com)
+
 You need to have access to Azure DNS Zone and you should be
 able to make [service principal](https://docs.microsoft.com/en-us/azure/active-directory/develop/app-objects-and-service-principals) to you Azure AD tenant.
 
